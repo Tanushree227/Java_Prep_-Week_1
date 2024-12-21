@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Problem_1
 {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter your weight in kilograms: ");
         double weight = sc.nextDouble();
